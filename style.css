@@ -295,7 +295,7 @@ footer h1
 /* ------------------ RESPONSIVE DESIGN ------------------  */
 /* for smartphones */
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 320px) {
     body {
         margin: 0;
         padding: 0;
@@ -455,7 +455,7 @@ footer h1
 }
 
 /* for tablets */
-@media screen and (min-width: 301px) and (max-width: 767px) {
+@media screen and (min-width: 321px) and (max-width: 767px) {
     body {
         margin: 0;
         padding: 0;
