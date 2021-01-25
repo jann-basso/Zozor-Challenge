@@ -456,7 +456,37 @@ footer h1
 
 /* for tablets */
 @media screen and (min-width: 301px) and (max-width: 767px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
 
+    #bloc_page {
+        width: 90vw;
+        margin: auto;
+    }
+
+    /* Header */
+    header {
+        margin-top: 10px;
+    }
+
+    /* Navigation */
+    nav a {
+        font-size: 1.1rem; 
+    }
+
+    /* Corps */
+    aside h1 {
+        font-size: 0.9rem; 
+    }
+
+     /* Footer */
+     #mes_photos img {
+        margin: 10px 25px 10px 0px;
+    }
+
+           
 
 }
 
