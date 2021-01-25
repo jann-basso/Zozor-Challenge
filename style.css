@@ -251,7 +251,6 @@ footer h1
     font-size: 1.1em;
 }
 
-
 #tweet
 {
     width: 28%;
@@ -346,6 +345,7 @@ footer h1
 
     nav a {
         font-size: 0.9rem;
+        
     }
 
     nav a:hover {
@@ -387,11 +387,71 @@ footer h1
     }
 
     /* Corps */
+        section {
+            flex-direction: column;
+        }
 
+        section h1 {
+            font-size: 15px;
+            text-align: center
+        }
 
+        .ico_categorie {
+            width: 30px;
+        }
+
+        article {
+            width: 100%;
+            align-self: right;
+            margin-bottom: 20px;
+        }
+
+        article p {
+            width: 95%;
+            margin: auto;
+            margin-bottom: 10px;
+        }
+
+        #fleche_bulle {
+            position: absolute;
+            top: -14px;
+            left: 135px;
+            transform: rotateZ(90deg)
+        }
+
+        aside {
+            width: 90%;
+        }
+
+        aside p {
+            width: 95%;
+            margin: auto;
+            margin-bottom: 10px;
+        }
 
     /* Footer */
+        footer {
+            width: 95%;
+            margin: auto;
+            flex-direction: column;
+        }
 
+        footer h1 {
+            margin: 0;
+            margin-top: 15px;
+        }
+
+        #tweet, #mes_photos, #mes_amis {
+            width: 100%;
+        }
+
+        #mes_photos img {
+            margin: 10px 25px 10px 0px;
+        }
+
+        #listes_amis {
+            margin-left: 20px;
+        }
 }
 
 /* for tablets */
