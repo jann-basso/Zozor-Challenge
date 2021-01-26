@@ -293,9 +293,9 @@ footer h1
 
 
 /* ------------------ RESPONSIVE DESIGN ------------------  */
-/* for smartphones */
 
-@media screen and (max-width: 320px) {
+/* for small smartphones / smartwatches */
+@media only screen and (max-width: 320px) {
     body {
         margin: 0;
         padding: 0;
@@ -319,13 +319,17 @@ footer h1
     }
 
     #logo img {
-        width: 50px;
-        height: 51px;
+        width: 47px;
+        height: 48px;
     }
 
     header h1 {
-        font-size: 2.4rem;
+        font-size: 2.3rem;
         margin: 0;
+    }
+
+    header h2 {
+        font-size: 1.0em;
     }
 
 
@@ -333,14 +337,14 @@ footer h1
     nav ul {
         margin: 0;
         padding: 0;
-        align-items: flex-start;
-        flex-direction: row;
-        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 10px;
     }
 
     nav li {
-        margin-left: 9px;
-        margin-right: 9px;
+        margin: 5px;
     }
 
     nav a {
@@ -397,7 +401,7 @@ footer h1
         }
 
         .ico_categorie {
-            width: 30px;
+            display: none;
         }
 
         article {
@@ -410,6 +414,7 @@ footer h1
             width: 95%;
             margin: auto;
             margin-bottom: 10px;
+            font-size: 0.9em;
         }
 
         #fleche_bulle {
@@ -429,6 +434,11 @@ footer h1
             margin-bottom: 10px;
         }
 
+        aside img {
+            margin-right: 2px;
+        }
+    
+
     /* Footer */
         footer {
             width: 95%;
@@ -446,7 +456,7 @@ footer h1
         }
 
         #mes_photos img {
-            margin: 10px 25px 10px 0px;
+            margin: 10px 35px 10px 0px;
         }
 
         #listes_amis {
@@ -454,8 +464,8 @@ footer h1
         }
 }
 
-/* for tablets */
-@media screen and (min-width: 321px) and (max-width: 767px) {
+/* for smartphones and small tablets */
+@media only screen and (min-width: 321px) and (max-width: 799px) {
     body {
         margin: 0;
         padding: 0;
@@ -484,9 +494,13 @@ footer h1
      /* Footer */
      #mes_photos img {
         margin: 10px 25px 10px 0px;
-    }
+    } 
+}
 
-           
+@media only screen and (min-width: 800px) and (max-width: 966px) {
+
+
+
 
 }
 
